@@ -22,36 +22,36 @@ https://jitpack.io/#goxr3plus/javasysmon2
 
 ``` XML
 <repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
+  <repository>
+    <id>jitpack.io</id> 
+    <url>https://jitpack.io</url>
+  </repository>
 </repositories>
 ```
 
 ``` XML
-	<dependency>
-	    <groupId>com.github.goxr3plus</groupId>
-	    <artifactId>javasysmon2</artifactId>
-	    <version>8.0.0</version>
-	</dependency>
+<dependency>
+  <groupId>com.github.goxr3plus</groupId>
+  <artifactId>javasysmon2</artifactId>
+  <version>8.0.0</version>
+</dependency>
 ```
 
 **Gradle**
 
 ``` SCALA
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+   repositories {
+      ... 
+      maven { url 'https://jitpack.io' }
+   }
+ }
 ```
 
 ``` JAVA
 dependencies {
-	        implementation 'com.github.goxr3plus:javasysmon2:8.0.0'
-	}
+   implementation 'com.github.goxr3plus:javasysmon2:8.0.0'
+}
 ```
 
 
